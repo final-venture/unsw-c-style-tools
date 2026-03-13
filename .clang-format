@@ -1,0 +1,28 @@
+Language: C
+BasedOnStyle: LLVM
+
+# Indentation and Width
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 80
+
+# Braces and Blocks
+BreakBeforeBraces: Attach
+AllowShortBlocksOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortCaseLabelsOnASingleLine: false
+
+# Spaces
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+PointerAlignment: Right
+
+# Vertical Whitespace
+MaxEmptyLinesToKeep: 2
+
+# Includes and Switch statements
+IndentCaseLabels: true
+SortIncludes: true
