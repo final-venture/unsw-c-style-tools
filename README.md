@@ -1,3 +1,6 @@
-# COMP1511 Style Guide Tools
+# UNSW C Style Config
 
-Clang-tidy and clang-format configs enforcing UNSW COMP1511 C style guide: 4-space indent, snake_case naming, no VLAs/gotos/macros, <80 chars/line, and nesting ≤5. Automate clean, compliant C code for labs/assignments.
+`.clang-format` and `.clang-tidy` configurations for adhering to the UNSW CSE C Style Guide. Works for any UNSW course using C (COMP1511, COMP1521, COMP2521, COMP3231, etc.).
+
+## Disclaimer
+These configs automate formatting and static checks, not everything a tutor assesses (such as code clarity, comments, and function decomposition). Always verify your submission against your course's official style guide and checker (e.g., 1511 style).
